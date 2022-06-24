@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="strHeading" required="true" type="String" default="Heading Name" label="Heading"/>
+            <property name="strDescription" type="String" default="Write Description" label="Description"/>
+            <property name="strHeroHeight" type="Integer" default="240" label="Hero Height(px)"/>
+            <property type="String" name="backgroundColor" required="true" default="rgb(0, 53, 108)" label="Background Color"/>
+            <property type="String" name="fontColor" required="true" default="rgb(255, 255, 255)" label="Font Color"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

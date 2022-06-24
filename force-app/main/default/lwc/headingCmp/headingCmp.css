@@ -1,0 +1,20 @@
+@media only screen and (max-width: 600px) {
+    .hero{
+        margin-left: -25px;
+        padding-left: 0px;
+    }
+}
+/* .hero{
+    height: 240px;
+} */
+.hero .heading{
+    font-size: 300%;
+    padding-left: 7%;
+    padding-top: 40px;
+}
+.hero .para{
+    font-size: 100%;
+    padding-left: 7%;
+    padding-top: 10px;
+    padding-right: 30%;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="styleClass" type="String" role="inputOnly" description="The CSS class name"/>
+            <property name="variant" type="String" role="inputOnly" default="Brand" description="The CSS class name"/>
+            <property name="label" type="String" role="inputOnly" default="Next" description="The label for the input"/>
+            <property name="action" type="String" role="inputOnly" description="Navigation action to take. Can be Next, Previous, Submit or Pause"/>
+            <property name="isSelected" type="Boolean" role="inputOnly" default="False" description="When the button is selected, this value is set to true."/>
+            <property name="isDisabled" type="Boolean" role="inputOnly" default="False" description="If true, button is set to disabled."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
